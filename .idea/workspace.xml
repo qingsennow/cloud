@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30dedc61-2265-424f-92d6-e532e43dab44" name="Default Changelist" comment="" />
+    <list default="true" id="30dedc61-2265-424f-92d6-e532e43dab44" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-8-config-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-8-config-client/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +19,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/cloud-8-config/qingsen" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="MavenImportPreferences">
@@ -197,7 +201,7 @@
       <workItem from="1582420877683" duration="707000" />
       <workItem from="1582528896035" duration="7261000" />
       <workItem from="1582588898908" duration="5066000" />
-      <workItem from="1583139134037" duration="1034000" />
+      <workItem from="1583139134037" duration="1301000" />
     </task>
     <servers />
   </component>
@@ -209,6 +213,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="872" y="359" key="#Project_Structure/0.0.2560.1400@0.0.2560.1400" timestamp="1582546326001" />
+    <state x="845" y="293" key="CommitChangelistDialog2" timestamp="1583140439893">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="845" y="293" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1583140439893" />
+    <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog" timestamp="1583140468281">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1583140468281" />
     <state x="1039" y="388" key="FileChooserDialogImpl" timestamp="1583139397039">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -217,6 +229,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1089" y="613" key="Github.CreateGistDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1583139652032" />
+    <state x="1143" y="590" key="Github.ShareDialog" timestamp="1583140304992">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1143" y="590" key="Github.ShareDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1583140304992" />
+    <state x="896" y="405" key="Github.UntrackedFilesDialog" timestamp="1583140332939">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="896" y="405" key="Github.UntrackedFilesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1583140332939" />
     <state width="2517" height="399" key="GridCell.Tab.0.bottom" timestamp="1582621485858">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -253,10 +273,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="760" y="275" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1583140168897" />
-    <state x="1072" y="617" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583139599316">
+    <state x="1072" y="617" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583140240896">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1072" y="617" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1583139599316" />
+    <state x="1072" y="617" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1583140240896" />
     <state x="654" y="310" key="new project wizard" timestamp="1582545529410">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
