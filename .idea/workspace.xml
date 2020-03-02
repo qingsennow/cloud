@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="30dedc61-2265-424f-92d6-e532e43dab44" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/cloud-8-config/qingsen" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="J:\tools\maven-ku" />
+        <option name="mavenHome" value="J:/tools/apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="J:\tools\apache-maven-3.6.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UA2KzaYJXaXghgKpwySrbJxBEb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sen.cloud" />
+      <recent name="mapper" />
+      <recent name="com.sen.cloud.mapper" />
+      <recent name="com.sen.cloud.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="J:\demo\cloud\cloud-8-config\src\main\java" />
+      <recent name="J:\demo\cloud\cloud-7-zuul-gateway\src\main\resources" />
+      <recent name="J:\demo\cloud\cloud-7-zuul-gateway\src\main\java" />
+      <recent name="J:\demo\cloud\cloud-6-hystrix-dashborad\src\main\java" />
+      <recent name="J:\demo\cloud\cloud-6-hystrix-dashborad\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ConfigClientApplication">
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-8-config" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sen.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sen.cloud.ConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-8-config-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sen.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sen.cloud.ConfigClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-5-eureka-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sen.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sen.cloud.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-5-eureka-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sen.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sen.cloud.EurekaApplication2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-7-zuul-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sen.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sen.cloud.ZuulGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ConfigClientApplication" />
+        <item itemvalue="Spring Boot.ConfigApplication" />
+        <item itemvalue="Spring Boot.ZuulGatewayApplication" />
+        <item itemvalue="Spring Boot.EurekaApplication2" />
+        <item itemvalue="Spring Boot.EurekaApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\chrih\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30dedc61-2265-424f-92d6-e532e43dab44" name="Default Changelist" comment="" />
+      <created>1574785018336</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574785018336</updated>
+      <workItem from="1574785019497" duration="3474000" />
+      <workItem from="1574804454402" duration="4588000" />
+      <workItem from="1574810580818" duration="2393000" />
+      <workItem from="1574890861822" duration="11742000" />
+      <workItem from="1574999728925" duration="2029000" />
+      <workItem from="1575068276203" duration="9551000" />
+      <workItem from="1575256539616" duration="286000" />
+      <workItem from="1575323654582" duration="5223000" />
+      <workItem from="1575382938764" duration="1457000" />
+      <workItem from="1575445080596" duration="2743000" />
+      <workItem from="1575473393133" duration="1294000" />
+      <workItem from="1575541666364" duration="6694000" />
+      <workItem from="1575598416331" duration="1586000" />
+      <workItem from="1575639222432" duration="4426000" />
+      <workItem from="1575843781912" duration="1973000" />
+      <workItem from="1575999068693" duration="564000" />
+      <workItem from="1576150714474" duration="1800000" />
+      <workItem from="1576299824779" duration="2041000" />
+      <workItem from="1576465470419" duration="2690000" />
+      <workItem from="1576807779112" duration="2957000" />
+      <workItem from="1577111289924" duration="46000" />
+      <workItem from="1577243412825" duration="1212000" />
+      <workItem from="1577346401270" duration="1200000" />
+      <workItem from="1578314445794" duration="5000" />
+      <workItem from="1578896949277" duration="668000" />
+      <workItem from="1581579434477" duration="6000" />
+      <workItem from="1581579686488" duration="65000" />
+      <workItem from="1581580101775" duration="156000" />
+      <workItem from="1581580269828" duration="2072000" />
+      <workItem from="1582420877683" duration="707000" />
+      <workItem from="1582528896035" duration="7261000" />
+      <workItem from="1582588898908" duration="5066000" />
+      <workItem from="1583139134037" duration="1034000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="872" y="359" key="#Project_Structure" timestamp="1582546326001">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="359" key="#Project_Structure/0.0.2560.1400@0.0.2560.1400" timestamp="1582546326001" />
+    <state x="1039" y="388" key="FileChooserDialogImpl" timestamp="1583139397039">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1039" y="388" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1583139397039" />
+    <state x="1089" y="613" key="Github.CreateGistDialog" timestamp="1583139652032">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1089" y="613" key="Github.CreateGistDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1583139652032" />
+    <state width="2517" height="399" key="GridCell.Tab.0.bottom" timestamp="1582621485858">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="399" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1582621485858" />
+    <state width="2517" height="399" key="GridCell.Tab.0.center" timestamp="1582621485858">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="399" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1582621485858" />
+    <state width="2517" height="399" key="GridCell.Tab.0.left" timestamp="1582621485858">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="399" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1582621485858" />
+    <state width="2517" height="399" key="GridCell.Tab.0.right" timestamp="1582621485858">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="399" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1582621485858" />
+    <state width="2517" height="399" key="GridCell.Tab.1.bottom" timestamp="1582621485858">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="399" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1582621485858" />
+    <state width="2517" height="399" key="GridCell.Tab.1.center" timestamp="1582621485858">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="399" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1582621485858" />
+    <state width="2517" height="399" key="GridCell.Tab.1.left" timestamp="1582621485858">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="399" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1582621485858" />
+    <state width="2517" height="399" key="GridCell.Tab.1.right" timestamp="1582621485858">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="399" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1582621485858" />
+    <state x="760" y="275" key="SettingsEditor" timestamp="1583140168897">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="760" y="275" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1583140168897" />
+    <state x="1072" y="617" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583139599316">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1072" y="617" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1583139599316" />
+    <state x="654" y="310" key="new project wizard" timestamp="1582545529410">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="654" y="310" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1582545529410" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-3-provider-1/src/main/java/com/sen/cloud/controller/ProductController.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

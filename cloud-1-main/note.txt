@@ -1,0 +1,97 @@
+========================================================================================================================
+========================================================================================================================
+MVCbean作用域① singleton    ② prototype    ③ request   ④ session    ⑤ global-session
+StringMVC的注解有哪些？
+@Controller  Bean Service    Autowired  RequestMapping @Component    @Entity  @RequestMapping  @Mapper @Validated
+@MapperScan("com.sen.demo.mapper") /  @Transactional(isolation = Isolation.READ_COMMITTED, propagation = Propagation.REQUIRED)
+RestController  Import  RequestParam  @PathVariable("id")
+
+46.数据库优化方案  至少写出5个
+答：创建索引了 sql语句优化   数据量大了分表（水平、垂直）、分布式读写分离
+
+***55、什么是单点登录？
+单点登录全称Single Sign On（以下简称SSO），是指在多系统应用群中登录一个系统，便可在其他所有系统中得到授权而无需再次登录，包括单点登录与单点注销两部分
+http://blog.csdn.net/paranoia_zk/article/details/53836106
+
+???64.工作流
+???中间件
+
+
+4 inverse cascade到底是啥玩意
+
+1 线程实现
+	a) extends Thread(run)  b) implements Runnable(run)  c) implements Callable(call)
+
+
+	//employee  id loginname password realname age phone email status
+========================================================================================================================
+========================================================================================================================
+@Configuration    @GetMapping
+/开启事务 @EnableTransactionManagement    @SpringBootApplication
+
+
+  WebMvcConfigurer-->路径映射静态页面添加拦截器
+   implements HandlerInterceptor   extends DefaultErrorAttributes
+   spring.application.name=consumer
+   logging.level.root=info
+   # 默认主数据源(8.0加CJ)
+   spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+   # 8版本以上指定时区
+   spring.datasource.url = jdbc:mysql://47.100.48.70:3306/qingsen?characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8
+   spring.datasource.username = qingsen
+   spring.datasource.password = PLpl02433_
+
+========================================================================================================================
+2.2 SpringBoot和SpringCloud的关系（面试题）
+Spring Boot 可以离开 Spring Cloud 单独使用开发项目，但是Spring Cloud离不开SpringBoot，属于依赖的
+关系.
+Spring Boot 专注于快速方便的开发单个个体微服务，Spring Cloud 关注全局的服务治理框架。
+Spring Cloud 是关注全局的微服务协调整理治理框架，它将 Spring Boot 开发的一个个单体微服务整合并管
+理起来，为各个微服务之间提供，配置管理、服务发现、断路器、路由、微代理、事件总线、全局锁、决策
+竞选、分布式会话等等集成服务。
+
+========================================================================================================================
+========================================================================================================================
+服务注册组件Eureka
+@EnableEurekaClient
+@EnableEurekaServer
+server.port=8989
+#服务端实例名
+eureka.instance.hostname=eureka8989.com
+#是否将自己注册到eureka
+eureka.client.register-with-eureka=false
+#是否从eureka获取
+eureka.client.fetch-registry=false
+#eureka客户端与服务端的交互地址  集群版配置对方地址(用逗号间隔)  单机版配置自己  (不配置默认8761端口)
+#eureka.client.service-url.defaultZone=http://${eureka.instance.hostname}:${server.port}/eureka/
+eureka.client.service-url.defaultZone=http://eureka9898.com:9898/eureka/
+spring.application.name=eureka
+#关闭自我保护机制
+eureka.server.enable-self-preservation=false
+
+========================================================================================================================
+服务发现组件Feign
+@EnableFeignClients(basePackages = "com.sen.cloud.service")
+feign.hystrix.enabled=true
+
+========================================================================================================================
+负载均衡Ribbon
+RestTemplate
+@LoadBalanced
+
+========================================================================================================================
+熔断器Hystrix
+feign.hystrix.enabled=true
+@FeignClient(value = "product",fallback = ClientServiceFallback.class)
+ @HystrixCommand(fallbackMethod = "getDefult")
+ @EnableHystrix
+
+========================================================================================================================
+路由网关Zuul
+@EnableZuulProxy
+extends ZuulFilter
+========================================================================================================================
+分布式配置管理Spring Cloud Config
+========================================================================================================================
+消息总线Spring Cloud Bus
+========================================================================================================================

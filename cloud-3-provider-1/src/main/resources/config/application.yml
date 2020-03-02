@@ -1,0 +1,32 @@
+#server:
+#  port: 8888
+
+
+#三个横杠为配置快  用spring:profiles 指定环境
+#spring:
+#  profiles:
+#    active: test
+#---
+#server:
+#  port: 8080
+#spring:
+#  profiles: test
+
+  #注入bean  在bean上加注解@ConfigurationProperties(映射配置文件中的值)   @Component（将组件作为SPIRNGBOOT组件管理纳入容器）
+#
+#emp:
+#  name: zhang
+#  age: 28
+#  salary: 20000
+#  brithday: 1994/04/11
+#  map:
+#    key1: value1
+#    key2: value2
+#  list:
+#    - value1
+#    - value2
+#    - value3
+#  hobby:
+#    name: java
+
+#    time: 8

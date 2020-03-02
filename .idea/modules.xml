@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud-1-main/cloud-1-main.iml" filepath="$PROJECT_DIR$/cloud-1-main/cloud-1-main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-2-common/cloud-2-common.iml" filepath="$PROJECT_DIR$/cloud-2-common/cloud-2-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-3-provider-1-hystrix/cloud-3-provider-1-hystrix.iml" filepath="$PROJECT_DIR$/cloud-3-provider-1-hystrix/cloud-3-provider-1-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-3-provider-2/cloud-3-provider-2.iml" filepath="$PROJECT_DIR$/cloud-3-provider-2/cloud-3-provider-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-4-consumer/cloud-4-consumer.iml" filepath="$PROJECT_DIR$/cloud-4-consumer/cloud-4-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-4-consumer-feign/cloud-4-consumer-feign.iml" filepath="$PROJECT_DIR$/cloud-4-consumer-feign/cloud-4-consumer-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-5-eureka-1/cloud-5-eureka-1.iml" filepath="$PROJECT_DIR$/cloud-5-eureka-1/cloud-5-eureka-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-5-eureka-2/cloud-5-eureka-2.iml" filepath="$PROJECT_DIR$/cloud-5-eureka-2/cloud-5-eureka-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-6-hystrix-dashborad/cloud-6-hystrix-dashborad.iml" filepath="$PROJECT_DIR$/cloud-6-hystrix-dashborad/cloud-6-hystrix-dashborad.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-7-zuul-gateway/cloud-7-zuul-gateway.iml" filepath="$PROJECT_DIR$/cloud-7-zuul-gateway/cloud-7-zuul-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-8-config/cloud-8-config.iml" filepath="$PROJECT_DIR$/cloud-8-config/cloud-8-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-8-config-client/cloud-8-config-client.iml" filepath="$PROJECT_DIR$/cloud-8-config-client/cloud-8-config-client.iml" />
+    </modules>
+  </component>
+</project>

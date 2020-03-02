@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">>
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+<div th:replace="header ::header"></div>
+index4
+<hr/>
+<p th:text="${key}">
+    默认值?
+</p>
+<p th:if="${key2}">
+    默认值?
+</p>
+<p th:text="${#locale.country}"></p>
+
+
+<table th:if = "${not #lists.isEmpty(empList)}">
+    <tr>
+        <td>id</td>
+        <td>当前</td>
+        <td>姓名</td>
+        <td>年龄</td>
+        <td>工资</td>
+    </tr>
+    <tr th:each="emp,iterstat:${empList}" >
+        <td th:text="${iterstat.count}"></td>
+        <td th:text="${iterstat.current}"></td>
+        <td th:text="${emp.name}"></td>
+        <td th:text="${emp.age>16?'中年':'老年'}"></td>
+        <td th:text="${emp.slaray}"></td>
+    </tr>
+</table>
+<ul>
+    <li th:each="emp:${empList}" th:text="${emp.name}"></li>
+</ul>
+<div th:switch="${key3}">
+    <p th:case="1">男</p>
+    <p th:case="2">女</p>
+    <p th:case="*">未知</p>
+</div>
+<!--
+<div th:object="${session.emp}">
+    <p th:text="*{name}"></p>
+    <p th:text="*{age}"></p>
+</div>-->
+
+
+<!--国际化-->
+
+<div class="国际化">
+<label th:utext="#{login.name}"></label>
+
+    [[#{login.psw}]]
+    [(#{login.name})]
+    [[${session.loginUser}]]
+</div>
+</body>
+</html>

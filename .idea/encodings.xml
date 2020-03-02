@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/cloud-1-main" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-2-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-2-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-3-provider-1-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-3-provider-1-hystrix/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-3-provider-2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-3-provider-2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-4-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-4-consumer-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-4-consumer-feign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-4-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-5-eureka-1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-5-eureka-1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-5-eureka-2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-5-eureka-2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-6-hystrix-dashborad" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-6-hystrix-dashborad/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-7-zuul-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-7-zuul-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-8-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-8-config-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-8-config/src/main/java" charset="UTF-8" />
+  </component>
+</project>
